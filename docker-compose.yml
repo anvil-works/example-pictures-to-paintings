@@ -1,0 +1,8 @@
+version: "2"
+services:
+  neural-style-transfer:
+    image: neural-style-transfer-demo
+    build:
+      context: .
+      dockerfile: Dockerfile
+
